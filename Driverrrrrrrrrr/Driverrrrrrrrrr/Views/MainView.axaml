@@ -11,6 +11,6 @@
         <TextBox Name="LoginTB"/>
         <Label Content="Пароль"/>
         <TextBox Name="PassTB"/>
-        <Button Content="Войти"/>
+        <Button Content="Войти" Click="Button_OnClick"/>
     </StackPanel>
 </UserControl>
