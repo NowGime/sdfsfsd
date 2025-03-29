@@ -8,5 +8,11 @@
         x:Class="Driverrrrrrrrrr.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="Driverrrrrrrrrr">
-        <views:MainView />
+        <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Image Source="/../Assets/gibdd_logo.png" Height="100"/>
+                        <Button Content="Выход"/>
+                </StackPanel>
+                <ContentControl Name="MainCC"/>
+        </StackPanel>
 </Window>
