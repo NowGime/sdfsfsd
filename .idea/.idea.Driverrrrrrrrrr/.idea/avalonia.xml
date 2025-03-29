@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/App.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
         <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/MainView.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Browser/Driverrrrrrrrrr.Browser.csproj" />
       </map>
     </option>
