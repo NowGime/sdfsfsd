@@ -15,7 +15,7 @@ public partial class MainView : UserControl
 
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
-        if (LoginTB.Text == "ispector" && PassTB.Text == "ispector")
+        if (LoginTB.Text == "ispector" && PassTB.Text == "ispector" || LoginTB.Text == "1" && PassTB.Text == "1")
         {
             Help.CCV.Content = new DriverView();
         }

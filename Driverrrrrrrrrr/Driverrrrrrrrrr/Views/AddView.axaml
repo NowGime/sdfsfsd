@@ -1,0 +1,42 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Driverrrrrrrrrr.Views.AddView">
+    <StackPanel>
+        <StackPanel Name="MainSP">
+            <Label Content="Идификатор"/>
+            <TextBox Text="{Binding Guid}"/>
+            <Label Content="Фамилия"/>
+            <TextBox Text="{Binding Surname}"/>
+            <Label Content="Имя"/>
+            <TextBox Text="{Binding Name}"/>
+            <Label Content="Отчество"/>
+            <TextBox Text="{Binding Patronimic}"/>
+            <Label Content="Серия Паспоорта"/>
+            <TextBox Text="{Binding PassprotrSerial}"/>
+            <Label Content="Серийный номер"/>
+            <TextBox Text="{Binding PassportNum}"/>
+            <Label Content="Город регистрации"/>
+            <TextBox Text="{Binding RegCity}"/>
+            <Label Content="Адресс регистрации"/>
+            <TextBox Text="{Binding RegAdress}"/>
+            <Label Content="Мобильный телефон"/>
+            <TextBox Text="{Binding MobPhone}" Name="PhoneTB"/>
+            <Label Content="Почта"/>
+            <TextBox Text="{Binding Email}" Name="EmailTB"/>
+            <Label Content="InvtAdress"/>
+            <TextBox Text="{Binding InvtAdress}"/>
+            <Label Content="InvtCity"/>
+            <TextBox Text="{Binding InvtCity}"/>
+            <Label Content="Фото"/>
+            <Image Name="DriverPhoto" Height="50" Width="50"/>
+            <Button Name="Show" Click="Show_OnClick" Content="Я хз"/>
+            <Label Content="Замечание"/>
+            <TextBox Text="{Binding Desc}"/>
+            <Button Content="Ок" Click="Button_OnClick"/>
+        </StackPanel>
+        <Button Content="Назад" Name="Back" Click="Back_OnClick"/>
+    </StackPanel>
+</UserControl>

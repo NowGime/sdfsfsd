@@ -4,5 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Driverrrrrrrrrr.Views.DriverView">
-    Welcome to Avalonia!
+    <StackPanel>
+        <DataGrid IsReadOnly="True" AutoGenerateColumns="True" Name="MainDG"/>
+        <Button Name="AddBtn" Click="AddBtn_OnClick" Content="Добавить"/>
+        <Button Name="DelBtn" Click="DelBtn_OnClick" Content="Удалить"/>
+        <Button Name="Shows" Click="Shows_OnClick"/>
+    </StackPanel>
 </UserControl>

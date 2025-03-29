@@ -4,7 +4,9 @@
     <option name="projectPerEditor">
       <map>
         <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/App.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
-        <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/MainView.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Browser/Driverrrrrrrrrr.Browser.csproj" />
+        <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/AddView.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
+        <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/DriverView.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
+        <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/MainView.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
         <entry key="Driverrrrrrrrrr/Driverrrrrrrrrr/Views/MainWindow.axaml" value="Driverrrrrrrrrr/Driverrrrrrrrrr.Desktop/Driverrrrrrrrrr.Desktop.csproj" />
       </map>
     </option>
